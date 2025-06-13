@@ -15,7 +15,7 @@ def run_health():
 
 def run_main():
     # 替换成你要执行的命令，比如启动 ArgoSB 主程序
-    subprocess.run(["/app/argosb_start.sh"])  # 示例路径
+    subprocess.run(["/ArgoSB/argosb.sh"])  # 示例路径
 
 if __name__ == "__main__":
     t = threading.Thread(target=run_health)
